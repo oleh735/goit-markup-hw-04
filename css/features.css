@@ -16,9 +16,9 @@
 .features-cards-wrapper {
   display: flex;
   gap: 24px;
+  box-sizing: border-box;
   padding: 0 15px;
   max-width: 1158px;
-  width: 1158px;
   height: 224px;
 }
 
@@ -37,9 +37,4 @@
   border: 1px solid #8e8f99;
   border-radius: 4px;
   background-color: #f4f4fd;
-}
-
-.feature-icon {
-  width: 64px;
-  height: 64px;
 }
