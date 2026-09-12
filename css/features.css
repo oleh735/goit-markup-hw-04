@@ -1,0 +1,24 @@
+.features-cards-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.features-cards-text {
+  line-height: 1.5;
+  color: #434455;
+  margin-top: 8px;
+}
+
+.features {
+  padding: 120px 0;
+}
+
+.features-cards-wrapper {
+  display: flex;
+  gap: 24px;
+}
+
+.feature-card {
+  width: calc((100% - 72px) / 4);
+}

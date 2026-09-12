@@ -1,0 +1,64 @@
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header .header-link {
+  padding: 24px 0;
+}
+
+.accent {
+  color: #4d5ae5;
+}
+
+.nav-text {
+  font-weight: 500;
+  line-height: 1.5;
+  display: block;
+}
+
+.nav-text:hover,
+.nav-text:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  font-weight: 400;
+  line-height: 1.5;
+  color: #434455;
+  font-style: normal;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.contacts-container {
+  display: flex;
+  gap: 40px;
+}
+
+.contacts-wrapper {
+  margin-left: auto;
+}
